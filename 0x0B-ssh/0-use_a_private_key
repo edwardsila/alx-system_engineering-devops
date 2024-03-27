@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 #This script uses ssh to connect tp ypur server
-ssh ubuntu@54.175.204.35 -i ~/.ssh/school
+ssh ubuntu@34.224.6.109 -i ~/.ssh/school
