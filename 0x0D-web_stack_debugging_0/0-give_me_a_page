@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Script fixes a down server
+sudo service apache2 restart
