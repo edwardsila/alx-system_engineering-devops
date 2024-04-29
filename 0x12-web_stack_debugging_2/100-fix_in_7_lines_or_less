@@ -1,4 +1,5 @@
- nginx as nginx
+#!/usr/bin/env bash
+#runs nginx as nginx
 pkill apache2
 chown nginx:nginx /etc/nginx/nginx.conf
 chmod 777 /etc/nginx/nginx.conf
