@@ -34,8 +34,8 @@ listen hbnb
     balance roundrobin
     option httpclose
     option forwardfor
-    server 3593-web-01 18.204.5.22 check port 80
-    server 3593-web-02 100.25.215.65 check port 80 
+    server 111771-web-01 100.25.38.192  check port 80
+    server 111771-web-02 54.210.90.2  check port 80 
 " >> /etc/haproxy/haproxy.cfg
 
 sudo service haproxy start
